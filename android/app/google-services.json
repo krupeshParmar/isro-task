@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605770684596",
+    "project_id": "isrotask",
+    "storage_bucket": "isrotask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605770684596:android:5083b65495fa010a185fe1",
+        "android_client_info": {
+          "package_name": "com.krupeshparmar4.isro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605770684596-i1099strhu5o0snqtouen4gp3p7ahsb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCupYDd1SD3jINI29dseYuM-8nh6m0gKck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605770684596-i1099strhu5o0snqtouen4gp3p7ahsb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
