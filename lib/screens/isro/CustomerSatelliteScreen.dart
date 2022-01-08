@@ -50,7 +50,7 @@ class _CustomerSatelliteScreenState extends State<CustomerSatelliteScreen> {
                     TableRow(children: [
                       TableCell(
                         child: Padding(
-                          padding: EdgeInsets.all(8.0),
+                          padding: EdgeInsets.all(4.0),
                           child: Text('id',
                               style: TextStyle(fontWeight: FontWeight.bold),
                               textAlign: TextAlign.center),
@@ -58,7 +58,7 @@ class _CustomerSatelliteScreenState extends State<CustomerSatelliteScreen> {
                       ),
                       TableCell(
                         child: Padding(
-                          padding: EdgeInsets.all(8.0),
+                          padding: EdgeInsets.all(4.0),
                           child: Text('Country',
                               style: TextStyle(fontWeight: FontWeight.bold),
                               textAlign: TextAlign.center),
@@ -66,7 +66,15 @@ class _CustomerSatelliteScreenState extends State<CustomerSatelliteScreen> {
                       ),
                       TableCell(
                         child: Padding(
-                          padding: EdgeInsets.all(8.0),
+                          padding: EdgeInsets.all(4.0),
+                          child: Text('Mass',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center),
+                        ),
+                      ),
+                      TableCell(
+                        child: Padding(
+                          padding: EdgeInsets.all(4.0),
                           child: Text('Launch Date',
                               style: TextStyle(fontWeight: FontWeight.bold),
                               textAlign: TextAlign.center),
@@ -74,7 +82,7 @@ class _CustomerSatelliteScreenState extends State<CustomerSatelliteScreen> {
                       ),
                       TableCell(
                         child: Padding(
-                          padding: EdgeInsets.all(8.0),
+                          padding: EdgeInsets.all(4.0),
                           child: Text('Launcher',
                               style: TextStyle(fontWeight: FontWeight.bold),
                               textAlign: TextAlign.center),
@@ -85,28 +93,33 @@ class _CustomerSatelliteScreenState extends State<CustomerSatelliteScreen> {
                       TableRow(children: [
                         TableCell(
                           child: Padding(
-                            padding: EdgeInsets.all(8.0),
-                            child:
-                                Text('${data.id}', textAlign: TextAlign.center),
+                            padding: EdgeInsets.all(4.0),
+                            child: Text(data.id, textAlign: TextAlign.center),
                           ),
                         ),
                         TableCell(
                           child: Padding(
-                            padding: EdgeInsets.all(8.0),
+                            padding: EdgeInsets.all(4.0),
                             child:
                                 Text(data.country, textAlign: TextAlign.center),
                           ),
                         ),
                         TableCell(
                           child: Padding(
-                            padding: EdgeInsets.all(8.0),
+                            padding: EdgeInsets.all(4.0),
+                            child: Text(data.mass, textAlign: TextAlign.center),
+                          ),
+                        ),
+                        TableCell(
+                          child: Padding(
+                            padding: EdgeInsets.all(4.0),
                             child: Text(data.launch_date,
                                 textAlign: TextAlign.center),
                           ),
                         ),
                         TableCell(
                           child: Padding(
-                            padding: EdgeInsets.all(8.0),
+                            padding: EdgeInsets.all(4.0),
                             child: Text(data.launcher,
                                 textAlign: TextAlign.center),
                           ),
